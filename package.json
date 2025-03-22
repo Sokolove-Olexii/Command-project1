@@ -5,7 +5,8 @@
   "homepage": "https://Sokolove-Olexii.github.io/Command-project1",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Command-project1/"
+    "build": "parcel build src/*.html --public-url /Command-project1/",
+    "startdb": "npx json-server src/db.json"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,11 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
