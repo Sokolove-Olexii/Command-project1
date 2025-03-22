@@ -1,0 +1,32 @@
+{
+  "name": "jslessons",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Sokolove-Olexii.github.io/Command-project1",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Command-project1/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sokolove-Olexii/Command-project1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "json-server": "^1.0.0-beta.3",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
