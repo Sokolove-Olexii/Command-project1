@@ -1,13 +1,27 @@
 <h1>hello Olexii</h1>
 <section>
   <div>
-    <form>
-      <input type="email" placeholder="email" class="emailInp" />
-      <input type="text" placeholder="nickname" class="textInp" />
+    <form class="form">
+      <input
+        required
+        type="email"
+        placeholder="email"
+        class="emailInp"
+        name="email"
+      />
+      <input
+        required
+        type="text"
+        placeholder="nickname"
+        class="textInp"
+        name="nickname"
+      />
       <textarea
+        required
         id="textarea"
         class="textarea"
         placeholder="write smth"
+        name="message"
       ></textarea>
       <button class="publishBtn">publish</button>
     </form>

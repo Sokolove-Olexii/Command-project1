@@ -1,10 +1,52 @@
 {
   "posts": [
-    { "id": "1", "email": "a title", "nickname": 100, "message": "abc" },
-    { "id": "2", "email": "another title", "nickname": 200, "message": "qwe" }
+    {
+      "email": "orion4ik1@ukr.net",
+      "nickname": "nekitfdg",
+      "message": "asdasd",
+      "id": "1"
+    },
+    {
+      "email": "orion4ik1@ukr.net",
+      "nickname": "nekitfdg",
+      "message": "asdasd",
+      "id": "2"
+    },
+    {
+      "email": "orion4ik1@ukr.net",
+      "nickname": "nekitfdg",
+      "message": "asdasd",
+      "id": "8c27"
+    },
+    {
+      "email": "orion4ik1@ukr.net",
+      "nickname": "nekitfdg",
+      "message": "asdasd",
+      "id": "ec06"
+    },
+    {
+      "id": "b7ca",
+      "email": "bson8893@gmail.com",
+      "nickname": "nekitos",
+      "message": "dfjgdgdfl"
+    },
+    {
+      "id": "9040",
+      "email": "bson8893@gmail.com",
+      "nickname": "nekitos",
+      "message": "dqweqe"
+    }
   ],
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
   ]
 }
